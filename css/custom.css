@@ -1,0 +1,162 @@
+.centered-text {
+	text-align: center;
+	font-size: 20px; /* Adjust the font size for the main text */
+	font-weight: bold; /* If you want the text to be bold */
+}
+
+.highlight {
+	text-decoration: underline; /* To underline HOU */
+}
+
+.small-text {
+	font-size: 18px; /* Smaller font size for Ph.D. Adjust as needed */
+	/* font-style: italic; */
+}
+
+.profile-pic {
+	float: right;
+	margin-left: 20px;
+	border-radius: 50%;
+  }
+
+  h1 {
+	font-size: 2em;
+  }
+
+  h1 .highlight {
+	text-decoration: underline;
+  }
+
+  p {
+	line-height: 1.6;
+  }
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.text-section {
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+.name-title {
+	font-size: 3em;
+	margin-bottom: 0;
+  }
+
+  .underline {
+	text-decoration: underline;
+  }
+  
+  .phd-title {
+	font-size: 1.5em;
+  }
+  
+  .professor-title {
+	font-size: 2.5em;
+	margin-top: 0;
+  }
+  
+  .professor-info {
+	font-size: 1.5em;
+	margin-right: 5px;
+  }
+
+  .address {
+    font-size: 16px; /* 调整字体大小，根据需要进行更改 */
+}
+
+  .image-container {
+	max-width: 250px;
+	max-height: 250px;
+	margin-top: -10px; /* 负的margin值将图片向上移动 */
+	margin-right: 30 px;
+	margin-left: 8px;
+  }
+
+/* .black-link {
+	color: black;
+} */
+a.black-link {
+	color: black !important;
+  }
+
+  /* custom.css */
+.menu-item {
+	text-transform: capitalize;
+  }
+
+.menu-item .lowercase {
+	text-transform: lowercase;
+  }
+
+  .research-image-container {
+	display: flex;
+	align-items: center; /* 这将使得图片垂直居中对齐 */
+	/* justify-content: space-between; */
+  }
+
+  .image-column {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* 水平居中 */
+	align-items: center; /* 垂直居中 */
+	overflow: hidden; /* 隐藏溢出的部分，可以视觉上裁剪图片 */
+  }
+  
+  .image-column img {
+	width: 90%; /* 保持图片的原始宽高比 */
+	max-width: none; /* 防止图片宽度被限制 */
+	height: auto; /* 高度自动调整以保持图片原始的宽高比 */
+	display: block; /* 移除图片下方的空白 */
+  }
+
+  /* 如果右侧图片留白过多，可以单独调整 */
+  .image-column.right img {
+	margin-top: -20%; /* 向上移动，裁剪掉顶部的留白 */
+	margin-bottom: -8%; /* 向下移动，裁剪掉底部的留白 */
+  }
+
+  figcaption {
+	text-align: center; /* 标题居中对齐 */
+	margin-top: 0.5em; /* 添加一些与图片的间隔 */
+	font-family: 'Times New Roman', Times, serif; /* 设置字体为 Times New Roman */
+	font-weight: bold; /* 加粗字体 */
+  }
+
+  .publications {
+	text-align: justify;
+	text-justify: inter-word;
+  }
+  
+  .publications ul {
+	padding: 0;
+	list-style-type: square;
+  }
+  
+  .publications li {
+	margin-bottom: 10px; /* Adds space between list items */
+	margin-right: 50px;
+  }
+
+  .people {
+	text-align: justify;
+	text-justify: inter-word;
+  }
+  
+  .people ul {
+	padding: 0;
+	list-style-type: none;
+	margin-left: 0;
+  }
+  
+  .people li {
+	font-size: 12px; /* 调整字体大小，根据需要进行更改 */
+	margin-bottom: 10px; /* Adds space between list items */
+	margin-right: 200px;
+  }
+
